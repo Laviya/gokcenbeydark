@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #1F2225;
+}
+html{
+    font-family: 'Outfit', sans-serif, 'Space Grotesk', sans-serif;
+    font-weight: 400;
+    font-size: 16px;    
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.frame{
+    padding: 0px 32px;
+}
+
+/* Contents */
+
+.container{
+    margin: 0 auto;
+    max-width: 724px;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+}
+
+.photograph{
+    padding: 52px 0px 52px 0px;
+}
+
+.photograph img{
+    max-width: 240px;
+    max-height: 240px;
+    border-radius: 50%;
+}
+
+.contentsText{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.contentsText p:nth-child(1){
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    padding: 0px 47px 40px 0px;
+}
+
+.contentsText p span{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: normal;
+    color: #E84C29;
+}
+
+.contentsText p:nth-child(2){
+    color: #FFFFFFA3;
+    font-size: 18px;
+    line-height: normal;
+    padding-right: 126px;
+}
+
+/* Experience */
+
+.experience{
+    padding: 120px 0px 120px;
+}
+
+.experience h2{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: normal;
+    padding-bottom: 32px;
+} 
+
+.experience-detail{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 24px 0px;
+    border-bottom: 1px solid rgba(70, 70, 70, 0.64);}
+
+.experience .viewAll{
+    padding-top: 32px;
+    user-select: none;
+}
+
+.experience .viewAll a{
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: normal;
+    border-bottom: 1px solid #E84C29;
+    background: linear-gradient(to right, #E84C29 50%, #FFFFFF 50%);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in-out;
+}
+.experience .viewAll a:hover{
+    background-position: -100%;
+}
+
+
+
+/* Experience Detail */
+
+.company-name a{
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    background: linear-gradient(to right, #FFFFFF 50%,  #E84C29 50% );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in-out;
+}
+.company-name a:hover{
+    background-position: -100%;
+}
+
+.company-title{
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: normal;
+    padding-bottom: 4px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.company-period{
+    color: #FFFFFFA3;
+    font-size: 14px;
+    font-style: normal;
+    line-height: normal;
+}
+
+/*Information*/
+
+.information{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 32px;
+    padding-bottom:75px ;
+}
+
+.information h3{
+    color: #FFF;
+    font-size: 26px;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.information-detail{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.top-text{
+    display: flex;
+    align-items: center;
+}
+
+.top-text svg{
+    margin-left: 4px;
+}
+
+.information-detail a{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    padding-bottom: 4px;
+    background: linear-gradient(to right, #FFFFFF 50%,  #E84C29 50% );
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-in-out;
+}
+.information-detail a:hover{
+    background-position: -100%;
+}
+
+.information p{
+    color: #FFFFFFA3;
+    font-size: 14px;
+    line-height: normal;
+}
+
+
+  
+  
+
